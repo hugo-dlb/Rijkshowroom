@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34013481-3509-404a-b871-1b2742e5aaa1" name="Default Changelist" comment="" />
+    <list default="true" id="34013481-3509-404a-b871-1b2742e5aaa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/components/ArtworkListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/components/ArtworkListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/navigation/AppNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/navigation/MainTabNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/screens/HomeScreen.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,67 +59,46 @@
     <session id="-1897526952">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1030" />
+          <entry key="js" value="4693" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1030" />
+          <entry key="JavaScript" value="4693" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="12" />
+          <entry key="js" value="45" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="45" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/screens/HomeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/components/ArtworkListItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -124,6 +111,28 @@
       <find>RepoList</find>
       <find>car</find>
       <find>repos</find>
+      <find>_SUCCES</find>
+      <find>console</find>
+      <find>MainTab</find>
+      <find>StackNavigator</find>
+      <find>AppNav</find>
+      <find>navigation.nav</find>
+      <find>navigate</find>
+      <find>AppContainer</find>
+      <find>createAppContainer</find>
+      <find>withNav</find>
+      <find>height:</find>
+      <find>size</find>
+      <find>color:</find>
+      <find>scroll</find>
+      <find>padding:</find>
+      <find>:</find>
+      <find>console.l</find>
+      <find>background</find>
+      <find>.push</find>
+      <find>.image</find>
+      <find>.item</find>
+      <find>style</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,9 +146,13 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/presentation/components/CarListItem.js" />
         <option value="$PROJECT_DIR$/presentation/screens/AboutScreen.js" />
+        <option value="$PROJECT_DIR$/data/ctf.js" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/presentation/components/ArtworkListItem.js" />
+        <option value="$PROJECT_DIR$/presentation/navigation/AppNavigator.js" />
         <option value="$PROJECT_DIR$/presentation/navigation/MainTabNavigator.js" />
+        <option value="$PROJECT_DIR$/presentation/components/ArtworkListItem.js" />
+        <option value="$PROJECT_DIR$/presentation/components/ProgressiveImage.js" />
+        <option value="$PROJECT_DIR$/presentation/screens/ArtworkDetailsScreen.js" />
         <option value="$PROJECT_DIR$/presentation/screens/HomeScreen.js" />
         <option value="$PROJECT_DIR$/data/reducer.js" />
       </list>
@@ -165,16 +178,17 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="225" />
-    <option name="y" value="-15" />
-    <option name="width" value="864" />
-    <option name="height" value="462" />
+    <option name="x" value="150" />
+    <option name="y" value="-10" />
+    <option name="width" value="576" />
+    <option name="height" value="308" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,23 +206,10 @@
               <item name="Rijkshowroom" type="462c0819:PsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Rijkshowroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rijkshowroom" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rijkshowroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rijkshowroom" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,11 +220,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hugod\Documents\Code\ReactNative\Mercedesk\presentation\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hugod\Documents\Code\ReactNative\Mercedesk\presentation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hugod\Documents\Code\ReactNative\Rijkshowroom\presentation\screens" />
+      <recent name="C:\Users\hugod\Documents\Code\ReactNative\Mercedesk\presentation\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,7 +240,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.ctf.js">
+    <configuration name="ctf.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ctf.js" working-dir="$PROJECT_DIR$/data">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -249,9 +254,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="Node.js.ctf.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.ctf.js" />
       </list>
     </recent_temporary>
   </component>
@@ -269,32 +279,38 @@
       <workItem from="1542614894267" duration="8942000" />
       <workItem from="1543221253200" duration="2815000" />
       <workItem from="1543224157582" duration="390000" />
-      <workItem from="1543224694385" duration="8753000" />
+      <workItem from="1543224694385" duration="12990000" />
+      <workItem from="1543437037726" duration="1401000" />
+      <workItem from="1543696829171" duration="1608000" />
+      <workItem from="1543928202763" duration="143000" />
+      <workItem from="1543928368688" duration="315000" />
+      <workItem from="1543928959612" duration="217000" />
+      <workItem from="1543929685658" duration="21372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21506000" />
+    <option name="totallyTimeSpent" value="50799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.872434" visible="true" weight="0.24940617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7278106" visible="true" weight="0.22075869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.12756598" side_tool="true" visible="true" weight="0.24940617" />
+      <window_info id="npm" order="2" sideWeight="0.27218935" side_tool="true" visible="true" weight="0.22075869" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14962594" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26681128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,9 +323,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/presentation/navigation/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation/constants/Layout.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -371,13 +384,11 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/data/ctf.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -388,24 +399,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/navigation/MainTabNavigator.js">
+    <entry file="file://$PROJECT_DIR$/presentation/components/TabBarIcon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/components/TabBarIcon.js">
+    <entry file="file://$PROJECT_DIR$/presentation/navigation/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/components/ProgressiveImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/screens/ArtworkDetailsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1106">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/components/ArtworkListItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="-341">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -414,18 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-460">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="594">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
