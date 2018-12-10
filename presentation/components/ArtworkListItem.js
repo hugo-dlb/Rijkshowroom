@@ -12,7 +12,6 @@ export class ArtworkListItem extends React.Component {
         if (this.props.artwork.hasImage) {
             image = (<Image
                 style={{
-                    flex: 1,
                     resizeMode: 'cover',
                     position: 'absolute',
                     width: '100%',
@@ -47,7 +46,7 @@ export class ArtworkListItem extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        height: 120,
+        height: 140,
         width: '100%',
         backgroundColor: 'white',
     },
