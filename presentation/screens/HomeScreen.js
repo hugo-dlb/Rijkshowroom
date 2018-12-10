@@ -1,14 +1,11 @@
 import React from 'react';
 import {
-    FlatList,
-    Platform,
-    StyleSheet,
-    Text,
-    View,
+    FlatList
 } from 'react-native';
 import {ArtworkListItem} from '../components/ArtworkListItem';
 import {connect} from 'react-redux';
 import {listArtworks} from '../../data/reducer';
+import {resetArtworks} from '../../data/reducer';
 
 class HomeScreen extends React.Component {
     static navigationOptions = {
@@ -16,30 +13,48 @@ class HomeScreen extends React.Component {
     };
 
     componentDidMount() {
-        this.props.listArtworks(1);
+        this.refresh();
     }
 
     render() {
         const artworks = this.props.artworks;
         return (<FlatList
+            refreshing={this.props.loading}
+            onRefresh={() => this.refresh()}
+            onEndReached={() => this.loadNextArtworks()}
+            onEndReachedEndThresold={0.8}
+            keyExtractor={item => item.objectNumber}
             data={artworks}
-            renderItem={({item}) => <ArtworkListItem artwork={item}></ArtworkListItem>}
+            renderItem={({item}) => <ArtworkListItem {...this.props} artwork={item}></ArtworkListItem>}
         />);
     }
-}
 
-const styles = StyleSheet.create();
+    refresh() {
+        this.props.resetArtworks();
+        this.props.listArtworks(1);
+    }
+
+    loadNextArtworks() {
+        if (!this.props.loading) {
+            const nextPage = this.props.requestedPage + 1;
+            this.props.listArtworks(nextPage);
+        }
+    }
+};
 
 const mapStateToProps = state => {
     let artworks = state.artworks || [];
-    artworks = artworks.map(artwork => ({key: artwork.id, ...artwork}));
     return {
-        artworks: artworks
+        artworks: artworks,
+        requestedPage: state.requestedPage,
+        loading: state.loading,
+        error: state.error
     };
 };
 
 const mapDispatchToProps = {
-    listArtworks
+    listArtworks,
+    resetArtworks
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
