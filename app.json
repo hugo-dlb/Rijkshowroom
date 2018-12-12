@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Mercedesk",
-    "description": "A very interesting project.",
-    "slug": "Mercedesk",
+    "name": "Rijkshowroom",
+    "description": "Navigate through the Rijksmuseum artworks.",
+    "slug": "Rijkshowroom",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [
@@ -25,6 +25,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dalboussiere.rijkshowroom"
     }
   }
 }
